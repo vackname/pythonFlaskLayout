@@ -1,0 +1,65 @@
+#head
+{/* layout head*/
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    border-bottom:1px solid #EEE;
+    box-shadow: 1px 1px 1px #AAA;
+    height:50px;
+    z-index:199;
+    background-color:#FFF;
+
+}
+
+#head #titleBody
+{/* layout head 主標 */
+    position:relative;
+    width:300px;
+    color:#004B97;
+    font-size:25px;
+    font-weight:bold;
+    left:20px;
+    top:9px;
+}
+
+#head #titleBody #title1
+{/* layout head 小標1*/
+    color:#555;
+    font-size:14px;
+    position:absolute;
+    left:120px;
+    top:-5px;
+    font-weight:bold;
+}
+
+#head #titleBody #title2
+{/* layout head 小標2 */
+    color:#004B97;
+    font-size:14px;
+    position:absolute;
+    left:120px;
+    top:12px;
+    font-weight:bold;
+}
+
+
+#BodyContent
+{
+    position:relative;
+    padding-top:70px;
+    padding-bottom:60px;
+    min-height:900px
+}
+
+#flower
+{/* flower panel */
+    position:relative;
+    width:100%;
+    background-color:#003D79;
+    color:#0072E3;
+    text-align:center;
+    font-size:12px;
+    padding-top:9px;
+    padding-bottom:9px;
+}

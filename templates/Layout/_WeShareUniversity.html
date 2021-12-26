@@ -1,0 +1,28 @@
+<html lang="zh-Hant-Tw">
+    <head>
+        <link rel="icon" href="sclib/img/protal.icon" />
+        <link rel="stylesheet" href="sclib/site.css" />
+        <link rel="stylesheet" href="sclib/Layout/_WeShareUniversity.css" />
+        <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js" type="text/javascript"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    </head>
+    <title>我學學院-{{title}}</title>
+    <body>
+        <div id="head">
+            <div id="titleBody">
+                We Share
+                <div id="title1">數位大學</div>
+                <div id="title2">University</div>
+            </div>
+        </div>
+        <div id="BodyContent">
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div id="flower">
+            Copyright © 2018 We Share University
+        </div>
+    </body>
+</html>
+<style>

@@ -1,0 +1,91 @@
+#viewWeSharePanel
+{/* 首頁 框架-panel*/
+    width:100%;
+}
+
+#viewWeSharePanel #titlePanel
+{/* 首頁 副標 框架-panel*/
+    width:100%;
+    text-align:center;
+}
+
+#viewWeSharePanel #titlePanel #Title
+{/* 首頁 副標 框架-panel*/
+    width:100%;
+    color:#333;
+    font-size:20px;
+    padding-bottom:30px;
+    font-weight:bold;
+}
+
+#viewWeSharePanel #titlePanel #BG1
+{/* 首頁 副標 框架-panel*/
+    width:100%;
+    max-width:700px;
+}
+
+#viewWeSharePanel #ChooseSplitPanel
+{/* 問題選擇-進入點 */
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+    padding-top:80px;
+    padding-bottom:20px;
+}
+
+#viewWeSharePanel #ChooseSplitPanel .li
+{/* 問題選擇-進入點 分類 icon bt panel*/
+    cursor:pointer;
+    text-align:center;
+}
+
+#viewWeSharePanel #ChooseSplitPanel .li img
+{/* 問題選擇-進入點 分類 icon bt*/
+    width:98%;
+}
+
+#viewWeSharePanel #ChooseSplitPanel .clear 
+{/* 問題選擇-進入點 分類 icon bt 移除float*/
+    width:100%;
+}
+
+@media screen and (min-width: 701px){
+    #viewWeSharePanel #ChooseSplitPanel
+    {/* 問題選擇-進入點 */
+        max-width:1200px;
+    }
+
+    #viewWeSharePanel #ChooseSplitPanel .li
+    {/* 問題選擇-進入點 分類 icon bt  panel*/
+        float:left;
+        width:25%;
+    }
+
+    #viewWeSharePanel #ChooseSplitPanel .clear 
+    {/* 問題選擇-進入點 分類 icon bt 移除float*/
+        clear : left;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 700px){
+    #viewWeSharePanel #ChooseSplitPanel .li
+    {/* 問題選擇-進入點 分類 icon bt  panel*/
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:90%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    #viewWeSharePanel #ChooseSplitPanel .li
+    {/* 問題選擇-進入點 分類 icon bt  panel*/
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        width:95%;
+    }
+}
